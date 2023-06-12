@@ -1,9 +1,11 @@
 object Form1: TForm1
   Left = 0
   Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
   Caption = 'Form1'
-  ClientHeight = 255
-  ClientWidth = 491
+  ClientHeight = 252
+  ClientWidth = 494
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -31,7 +33,7 @@ object Form1: TForm1
     Left = 351
     Top = 47
     Width = 134
-    Height = 25
+    Height = 73
     Caption = '='
     TabOrder = 2
     OnClick = Button1Click
@@ -209,19 +211,19 @@ object Form1: TForm1
   end
   object Button21: TButton
     Left = 351
-    Top = 95
-    Width = 75
-    Height = 25
-    Caption = '^'
-    TabOrder = 22
-    OnClick = Button2Click
-  end
-  object Button23: TButton
-    Left = 351
     Top = 135
     Width = 75
     Height = 25
-    Caption = 'COS'
+    Caption = 'Min(X,Y)'
+    TabOrder = 22
+    OnClick = Button2Click
+  end
+  object Button22: TButton
+    Left = 351
+    Top = 175
+    Width = 75
+    Height = 25
+    Caption = ','
     TabOrder = 23
     OnClick = Button2Click
   end

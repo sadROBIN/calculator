@@ -30,10 +30,10 @@ object Form1: TForm1
     TabOrder = 1
   end
   object Button1: TButton
-    Left = 351
+    Left = 352
     Top = 47
     Width = 134
-    Height = 73
+    Height = 113
     Caption = '='
     TabOrder = 2
     OnClick = Button1Click
@@ -211,7 +211,7 @@ object Form1: TForm1
   end
   object Button21: TButton
     Left = 351
-    Top = 135
+    Top = 175
     Width = 75
     Height = 25
     Caption = 'Min(X,Y)'
@@ -220,7 +220,7 @@ object Form1: TForm1
   end
   object Button22: TButton
     Left = 351
-    Top = 175
+    Top = 214
     Width = 75
     Height = 25
     Caption = ','
